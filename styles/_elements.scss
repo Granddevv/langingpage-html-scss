@@ -1,0 +1,40 @@
+.button {
+  text-transform: uppercase;
+  font-size: $fs-btn;
+  height: 60px;
+  border-radius: 52px;
+  border: none;
+
+  &.primary {
+    color: $primary-pink;
+    background-color: white;
+  }
+
+  &.secondary {
+    color: white;
+    background-color: $primary-pink;
+  }
+}
+
+form {
+  .input-field {
+    display: flex;
+    input {
+      font-size: $fs-input;
+      height: 50px;
+      border-radius: 2px;
+      border: 1px solid #DADADA;
+      padding: 0px 20px;
+      margin-bottom: 10px;
+      width: 100%;
+      font-family: $font-family-primary;
+      &::placeholder {
+        color: #C0C0C0;
+        text-transform: uppercase;
+      }
+    }
+  }
+  button {
+    width: 100%;
+  }
+}
